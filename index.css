@@ -1,0 +1,46 @@
+
+
+.bg-dark {
+    background-color: #000000!important;
+}
+
+
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #ff9285 !important;
+    border: none;
+    border-radius: 0;
+    padding: 0.75rem 1.5rem;
+    text-transform: uppercase;
+    color: black;
+
+}
+.btn-primary:hover{
+    background-color: rgb(255, 169, 160) !important; 
+}
+
+/* increase line thickness */
+.border{
+    border-width: 6px !important;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: black;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 1.25rem;
+    max-width: 100%;
+    height: auto;
+}
+.img-thumbnail:hover{
+    background-color: #000000 !important;
+} 
+figcaption{
+    text-decoration: none !important;
+}
+figcaption:hover{
+    
+    color: rgba(255, 255, 255, 0.8) !important;
+}
