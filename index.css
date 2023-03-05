@@ -78,3 +78,6 @@ a.webvy {
     color: #000000 !important;
 }
 
+a.nav-link:hover{
+    border-bottom: 1px solid white !important;
+}
