@@ -1,5 +1,7 @@
+@import "variables";
+
 .bg-dark {
-  background-color: #000 !important;
+  background-color: $black !important;
 }
 
 li.nav-item {
@@ -8,7 +10,7 @@ li.nav-item {
 }
 
 .font-large {
-  font-size: 30px;
+  font-size: $font-size;
 }
 
 .material-symbols-outlined {
@@ -18,7 +20,7 @@ li.nav-item {
 .btn-primary,
 .btn-primary:active,
 .btn-primary:visited {
-  background-color: #ff9285 !important;
+  background-color: $pink !important;
   border: none;
   border-radius: 0;
   padding: 0.75rem 1.5rem;
@@ -27,7 +29,7 @@ li.nav-item {
 }
 
 .btn-primary:hover {
-  background-color: rgb(255, 169, 160) !important;
+  background-color: $light-pink !important;
 }
 
 /* increase line thickness */
@@ -45,7 +47,7 @@ li.nav-item {
 }
 
 .img-thumbnail:hover {
-  background-color: #000 !important;
+  background-color: $black !important;
 }
 
 figcaption {
@@ -53,11 +55,11 @@ figcaption {
 }
 
 figcaption:hover {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: $white-opacity !important;
 }
 
 .bg-primary {
-  background-color: #ff9285 !important;
+  background-color: $pink !important;
 }
 
 a {
@@ -66,9 +68,9 @@ a {
 
 .webvy {
   text-decoration: underline !important;
-  color: #000 !important;
+  color: $black !important;
 }
 
 .nav-link:hover {
   border-bottom: 1px solid white !important;
-}/*# sourceMappingURL=index.css.map */
+}
