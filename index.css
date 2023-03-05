@@ -70,11 +70,11 @@ figcaption:hover {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a.webvy {
-    text-decoration: underline;
-    color: #000000;
+    text-decoration: underline !important;
+    color: #000000 !important;
 }
 
